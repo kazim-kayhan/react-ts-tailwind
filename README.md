@@ -57,6 +57,11 @@ When you use this template, try follow the checklist to update your info properl
 
 And, enjoy :)
 
+## Why
+
+I recently created several React apps, and the config setup was a bottleneck for me to quickly bring my ideas to life. To make the process easier, I created this starter template which includes some of the best practices I've learned from creating those apps. Feel free to customize it, star it, or even maintain your own fork.
+
+
 ## Usage
 
 ### Development
@@ -77,10 +82,13 @@ yarn build
 
 And you will see the generated file in `dist` that ready to be served.
 
+
+### Husky
+
+If pre-commit hooks are not working be sure that you have installed husky: `husky install`.
+
+By default this command should be triggered after yarn/npm deps are installed.
+
 ### Deploy on Vercel
 
 Go to your [vercel](https://vercel.com) dashboard, click `Add New...` project and select your repository, `Import` along the way, and your App will be live in a minute.
-
-## Why
-
-I recently created several React apps, and the config setup was a bottleneck for me to quickly bring my ideas to life. To make the process easier, I created this starter template which includes some of the best practices I've learned from creating those apps. Feel free to customize it, star it, or even maintain your own fork.
