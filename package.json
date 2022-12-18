@@ -26,7 +26,6 @@
     "husky",
     "commit-lint"
   ],
-  "type": "module",
   "engines": {
     "node": ">=14",
     "yarn": ">=1.22.5"
@@ -34,7 +33,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "jest",
+    "postinstall": "husky install"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.13",
