@@ -1,0 +1,70 @@
+{
+  "name": "react-ts-tailwind",
+  "version": "1.0.0",
+  "description": "This starter template for React (TypeScript) with Vite provides support for TailwindCSS with CSS-Modules and is pre-configured with Jest and @react/testing-library, ESLint, Prettier, Husky, Commit-lint, and an Atomic Design approach for components.",
+  "homepage": "https://github.com/kazim-kayhan/react-ts-tailwind#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazim-kayhan/react-ts-tailwind.git"
+  },
+  "author": "Kazim Kayhan <mail4kazim.kayhan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kazim-kayhan/react-ts-tailwind/issues"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "typescript",
+    "jest",
+    "tailwind",
+    "template",
+    "starter",
+    "css-modules",
+    "eslint",
+    "prettier",
+    "husky",
+    "commit-lint"
+  ],
+  "type": "module",
+  "engines": {
+    "node": ">=14",
+    "yarn": ">=1.22.5"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.13",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@types/jest": "^29.2.4",
+    "@types/node": "^18.11.17",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "@vitejs/plugin-react": "^3.0.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.30.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.3.1",
+    "jest-environment-jsdom": "^29.3.1",
+    "postcss": "^8.4.20",
+    "prettier": "^2.8.1",
+    "tailwindcss": "^3.2.4",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  }
+}
