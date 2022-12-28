@@ -12,6 +12,10 @@ Mocking up web apps with <b>R-Ts-T</b><sup><em>(speed)</em></sup><br>
 <a href="https://react-ts-tailwind.vercel.app">Live Demo</a>
 </p>
 
+<p align='center'>
+<a href="https://codesandbox.io/p/github/kazim-kayhan/react-ts-tailwind/sandbox">View on Sandbox</a>
+</p>
+
 ## Features
 
 - ⚡️ [React 18](https://beta.reactjs.org/)
