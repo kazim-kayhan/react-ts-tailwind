@@ -10,101 +10,101 @@ import {
   MapPinIcon,
   PencilIcon,
   PhotoIcon,
-} from "@heroicons/react/24/outline";
-import { QuestionMarkCircleIcon } from "@heroicons/react/24/solid";
-import Button from "components/atoms/button";
-import Logos from "components/atoms/logos";
-import CopyButton from "components/molecules/copy-button";
-import Card from "components/organisms/card";
-import styles from "./app.module.css";
+} from '@heroicons/react/24/outline'
+import { QuestionMarkCircleIcon } from '@heroicons/react/24/solid'
+import Button from 'components/atoms/button'
+import Logos from 'components/atoms/logos'
+import CopyButton from 'components/molecules/copy-button'
+import Card from 'components/organisms/card'
+import styles from './app.module.css'
 
 const CONSTANTS = {
-  name: "Kazim Kayhan",
-  githubProfileLink: "https://github.com/kazim-kayhan",
-  githubRepoLink: "https://github.com/kazim-kayhan/react-ts-tailwind",
-  copyButtonText: "npx degit kazim-kayhan/react-ts-tailwind your-project-name",
-};
+  name: 'Kazim Kayhan',
+  githubProfileLink: 'https://github.com/kazim-kayhan',
+  githubRepoLink: 'https://github.com/kazim-kayhan/react-ts-tailwind',
+  copyButtonText: 'npx degit kazim-kayhan/react-ts-tailwind your-project-name',
+}
 
 const features = [
   {
-    name: "Vite",
+    name: 'Vite',
     description:
-      "Faster and leaner development experience for modern web projects.",
+      'Faster and leaner development experience for modern web projects.',
     logo: CubeTransparentIcon,
-    docs: "https://vitejs.dev/",
+    docs: 'https://vitejs.dev/',
   },
   {
-    name: "React",
-    description: "JavaScript library for building user interfaces.",
+    name: 'React',
+    description: 'JavaScript library for building user interfaces.',
     logo: PencilIcon,
-    docs: "https://reactjs.org/",
+    docs: 'https://reactjs.org/',
   },
   {
-    name: "TypeScript",
+    name: 'TypeScript',
     description:
-      "Strongly typed programming language that builds on JavaScript.",
+      'Strongly typed programming language that builds on JavaScript.',
     logo: BookmarkSquareIcon,
-    docs: "https://www.typescriptlang.org/",
+    docs: 'https://www.typescriptlang.org/',
   },
   {
-    name: "Tailwindcss",
-    description: "A utility-first CSS framework packed with classes.",
+    name: 'Tailwindcss',
+    description: 'A utility-first CSS framework packed with classes.',
     logo: PhotoIcon,
-    docs: "https://tailwindcss.com/",
+    docs: 'https://tailwindcss.com/',
   },
   {
-    name: "Jest",
-    description: "Testing Framework with a focus on simplicity.",
+    name: 'Jest',
+    description: 'Testing Framework with a focus on simplicity.',
     logo: QuestionMarkCircleIcon,
-    docs: "https://jestjs.io/",
+    docs: 'https://jestjs.io/',
   },
   {
-    name: "CSS Modules",
+    name: 'CSS Modules',
     description:
-      "CSS file in which all class names and animation names are scoped locally by default.",
+      'CSS file in which all class names and animation names are scoped locally by default.',
     logo: LockClosedIcon,
-    docs: "https://github.com/css-modules/css-modules",
+    docs: 'https://github.com/css-modules/css-modules',
   },
   {
-    name: "ESLint",
-    description: "Find and fix problems in your JavaScript code.",
+    name: 'ESLint',
+    description: 'Find and fix problems in your JavaScript code.',
     logo: BeakerIcon,
-    docs: "https://eslint.org/",
+    docs: 'https://eslint.org/',
   },
   {
-    name: "Prettier",
-    description: "An opinionated code formatter.",
+    name: 'Prettier',
+    description: 'An opinionated code formatter.',
     logo: Bars3Icon,
-    docs: "https://prettier.io/",
+    docs: 'https://prettier.io/',
   },
   {
-    name: "Husky",
+    name: 'Husky',
     description:
-      "Lint your commit messages, run tests, lint code, etc... when you commit or push.",
+      'Lint your commit messages, run tests, lint code, etc... when you commit or push.',
     logo: CakeIcon,
-    docs: "https://github.com/typicode/husky",
+    docs: 'https://github.com/typicode/husky',
   },
   {
-    name: "Commit-lint",
-    description: "Helps your team adhering to a commit convention.",
+    name: 'Commit-lint',
+    description: 'Helps your team adhering to a commit convention.',
     logo: FilmIcon,
-    docs: "https://github.com/conventional-changelog/commitlint",
+    docs: 'https://github.com/conventional-changelog/commitlint',
   },
   {
-    name: "Atomic design",
+    name: 'Atomic design',
     description:
-      "We’re not designing pages, we’re designing systems of components.",
+      'We’re not designing pages, we’re designing systems of components.',
     logo: MapPinIcon,
-    docs: "https://bradfrost.com/blog/post/atomic-web-design/",
+    docs: 'https://bradfrost.com/blog/post/atomic-web-design/',
   },
   {
-    name: "Absolute imports",
+    name: 'Absolute imports',
     description:
-      "Import resource using its full path from the project’s src folder.",
+      'Import resource using its full path from the project’s src folder.',
     logo: ChevronDownIcon,
-    docs: "https://github.com/vitejs/vite/issues/88#issuecomment-762415200",
+    docs: 'https://github.com/vitejs/vite/issues/88#issuecomment-762415200',
   },
-];
+]
 
 const App = (): JSX.Element => {
   return (
@@ -116,14 +116,14 @@ const App = (): JSX.Element => {
         </h3>
         <h1 className={styles.headerTitle}>React + TypeScript + Tailwind</h1>
         <p className={styles.headerDescription}>
-          Start your web projects faster than ever. Comes with:{" "}
-          <code className={styles.headerDescriptionCode}>Tailwindcss</code>,{" "}
-          <code className={styles.headerDescriptionCode}>CSS-Modules</code>,{" "}
-          <code className={styles.headerDescriptionCode}>Jest</code>,{" "}
-          <code className={styles.headerDescriptionCode}>Husky</code>,{" "}
-          <code className={styles.headerDescriptionCode}>Commit-lint</code>,{" "}
-          <code className={styles.headerDescriptionCode}>ESLint</code>,{" "}
-          <code className={styles.headerDescriptionCode}>Prettier</code> and{" "}
+          Start your web projects faster than ever. Comes with:{' '}
+          <code className={styles.headerDescriptionCode}>Tailwindcss</code>,{' '}
+          <code className={styles.headerDescriptionCode}>CSS-Modules</code>,{' '}
+          <code className={styles.headerDescriptionCode}>Jest</code>,{' '}
+          <code className={styles.headerDescriptionCode}>Husky</code>,{' '}
+          <code className={styles.headerDescriptionCode}>Commit-lint</code>,{' '}
+          <code className={styles.headerDescriptionCode}>ESLint</code>,{' '}
+          <code className={styles.headerDescriptionCode}>Prettier</code> and{' '}
           <code className={styles.headerDescriptionCode}>
             Atomic organization for components
           </code>
@@ -167,7 +167,7 @@ const App = (): JSX.Element => {
         </a>
       </footer>
     </main>
-  );
-};
+  )
+}
 
-export default App;
+export default App

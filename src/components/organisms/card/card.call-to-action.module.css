@@ -3,5 +3,5 @@
 }
 
 .callToActionElement {
-  @apply text-white font-bold transition tracking-wide hover:text-blue-400;
+  @apply font-bold tracking-wide text-white transition hover:text-blue-400;
 }

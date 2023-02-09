@@ -1,17 +1,17 @@
 .card {
-  @apply bg-white bg-opacity-5 rounded-md shadow p-4 relative overflow-hidden h-full;
+  @apply relative h-full overflow-hidden rounded-md bg-white bg-opacity-5 p-4 shadow;
 }
 
 .content {
-  @apply flex flex-col h-full;
+  @apply flex h-full flex-col;
 }
 
 .title {
-  @apply text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-tl from-fuchsia-200 via-cyan-500 to-violet-400;
+  @apply bg-gradient-to-tl from-fuchsia-200 via-cyan-500 to-violet-400 bg-clip-text text-2xl font-bold text-transparent;
 }
 
 .description {
-  @apply mt-2 text-base text-gray-300 flex-1;
+  @apply mt-2 flex-1 text-base text-gray-300;
 }
 
 .iconContainer {
